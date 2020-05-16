@@ -36,8 +36,7 @@ function App(props){
                     </div>
                     <nav className="nav-header">
                         <NavLink exact to="/" className="nav-item">HR</NavLink>
-                        {isAdmin ? <NavLink to="/finance" className="nav-item">Finance</NavLink> : 
-                        <span className="nav-item">Finance</span>}
+                        {isAdmin && <NavLink to="/finance" className="nav-item">Finance</NavLink>}
                         <NavLink to="/inventory" className="nav-item">Inventory</NavLink>
                         <NavLink to="/settings" className="nav-item">Settings</NavLink> 
                     </nav>
