@@ -1,0 +1,116 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    background-color: #d2cccc;
+    color: #002E5D;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-top{
+    display: flex;
+    justify-content: flex-end;
+    background: #fff;
+    color:#f67044;
+}
+.nav-header {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: 1px solid #f67044;
+}
+.nav-header-left-section,.nav-header-right-section{
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+.nav-item,.nav-item:visited {
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 50px;
+}
+.nav-item:hover{
+    color:rgb(6, 77, 148);
+}
+.nav-item.active {
+    border-bottom: 3px solid #f67044;
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+}
+.login-form form{
+    padding: 50px;
+    height: 400px;
+    border: 1px solid #f67044;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-field{
+    padding: 10px;
+}
+.input-field label{
+    display: inline-block;
+    width: 100px;
+}
+.input-field input{
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid #8f8a8a;
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+}
+.submit-buttom{
+    width: 80%;
+    padding: 10px;
+    background: #f67044;
+    border: 0 none;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.submit-button-wrapper{
+    padding: 20px 10px 10px;
+    display: flex;
+}
+.tile_box{
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+}
+.tile{
+    width: 200px;
+    height: 250px;
+    border: 1px solid #f67044;
+    margin-right: 10px;
+    padding: 20px;
+    box-shadow: 0px -1px 2px 2px #a59f9f;
+    background: #fff;
+    position: relative;
+}
+.tile h4{
+    margin: 0;
+}
+.tile img{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
